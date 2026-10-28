@@ -1,0 +1,12 @@
+# TVBox 源地址清单（每行一个，行首 # 为注释）
+# 抓取脚本会逐个测试可用性，能用的自动合并进 tvbox.json
+# 以后想加源：把地址追加到这里即可；失效的源会自动跳过，不用删
+
+# 直播+点播（当前稳定）
+http://home.jundie.top:81/top98.json
+# 点播源（GitHub liu673cn/box 代理通道，当前稳定）
+https://gh-proxy.com/https://raw.githubusercontent.com/liu673cn/box/main/m.json
+# 点播源（直连，有时不稳定，失败自动跳过）
+https://raw.liucn.cc/box/m.json
+# 点播源（CDN 通道，候选）
+https://cdn.jsdelivr.net/gh/liu673cn/box@main/m.json
